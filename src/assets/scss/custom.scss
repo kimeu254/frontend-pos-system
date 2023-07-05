@@ -1,0 +1,19 @@
+// your variable overrides
+// modify theme colors map
+$theme-colors: (
+        "primary":#5D87FF,
+        "secondary":#49BEFF,
+        "success":#13DEB9,
+        "warning":#FFAE1F,
+        "danger":#FA896B,
+        "info":#4154f1,
+        "light":#F6F9FC,
+        "dark":#2A3547
+  //...other variables, you can find them in node_modules/bootstrap/scss/_variables.scss
+);
+
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Icons
+@import "bootstrap-icons/font/bootstrap-icons.css";
