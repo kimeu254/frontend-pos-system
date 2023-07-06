@@ -1,5 +1,6 @@
 import '@/assets/scss/custom.scss'
 import '@/assets/css/styles.min.css'
+import '@/assets/css/app.css'
 import '@/axios.js'
 import "vue-select/dist/vue-select.css"
 

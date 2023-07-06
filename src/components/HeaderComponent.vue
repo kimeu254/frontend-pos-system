@@ -81,11 +81,11 @@ const logout = async () => {
                 icon: 'success',
                 toast: true,
                 showConfirmButton: false,
-                timer: 5000,
+                timer: 1500,
                 timerProgressBar: true,
                 iconColor: '#fff',
                 background: '#13DEB9',
-                position: 'top-right',
+                position: 'top',
             })
         })
     }

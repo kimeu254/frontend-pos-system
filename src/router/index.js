@@ -35,6 +35,56 @@ const router = createRouter({
             title: `Change your password - POS System`
           }
         },
+        {
+          path: '/brands',
+          name: 'brands',
+          component: () => import('@/views/product/brand/BrandView.vue'),
+          meta: {
+            title: `Brands - POS System`
+          }
+        },
+        {
+          path: '/brand/create',
+          name: 'new-brand',
+          component: () => import('@/views/product/brand/CreateView.vue'),
+          meta: {
+            title: `New Brand - POS System`
+          }
+        },
+        {
+          path: '/brand/edit/:id',
+          name: 'edit-brand',
+          component: () => import('@/views/product/brand/EditView.vue'),
+          params: true,
+          meta: {
+            title: `Edit Brand - POS System`
+          }
+        },
+        {
+          path: '/categories',
+          name: 'categories',
+          component: () => import('@/views/product/category/CategoryView.vue'),
+          meta: {
+            title: `Categories - POS System`
+          }
+        },
+        {
+          path: '/category/create',
+          name: 'new-category',
+          component: () => import('@/views/product/category/CreateView.vue'),
+          meta: {
+            title: `New Category - POS System`
+          }
+        },
+        {
+          path: '/category/edit/:id',
+          name: 'edit-category',
+          component: () => import('@/views/product/category/EditView.vue'),
+          params: true,
+          meta: {
+            title: `Edit Category - POS System`
+          }
+        },
       ]
     },
     {
